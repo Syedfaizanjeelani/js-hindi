@@ -56,4 +56,30 @@ const myFunction = function(){
 
 
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// STACK(PRIMITIVE) AND HEAP(NON PRIMITIVE) MEMORY 
+// STACK MAI AGAR HAM KOI CHEEZ LENGE TO HAMKO USKA EAK COPY HE MILTA HA
+// HEAP MAI AGAR KOI VALUE RAKHTE HAI TO HAMO USKA REFRENCE HE MILTA HAI
+// HEAP = JO BHI CHANGES KRTE HAI USKI ORIGINAL VALUE MAI HI KRTE HAI BUT STACK MAI HAME USKA COPY MILTA HAI
+
+let myYoutubeName = "bratvabeast"
+let anotherName = myYoutubeName
+anotherName = "Faizan"
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+
+let userOne = {
+    email : "faizan@google.com",
+    age : 21
+}
+
+let userTwo = userOne
+userTwo.email = "Jeelani@google.com",
+
+console.log(userOne)
+console.log(userTwo)
