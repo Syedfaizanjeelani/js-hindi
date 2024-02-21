@@ -27,3 +27,17 @@ for (const [key, value] of map) {
     console.log(key, ":", value)
     
 }
+
+const object = {
+    game1 : "NFS",
+    game2 : "Tarzan"
+}
+
+// for (const [key, value] of object) {                //   YE OBJECT MAI (FOR OF LOOP)ISME KAAM NHI KAR RHA 
+//     console.log(key, ":-", value)
+    
+// }
+
+
+
+
