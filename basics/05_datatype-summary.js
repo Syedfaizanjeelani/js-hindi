@@ -4,7 +4,7 @@
 //        Number => number
 //        String  => string
 //        Boolean  => boolean
-//        null  => object
+//        null  => object       ( null object hota hai)
 //        undefined  =>  undefined
 //        Symbol  =>  symbol
 //        BigInt  =>  bigint
